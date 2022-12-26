@@ -18,13 +18,13 @@ public class SimpleController {
         this.hackCatService = hackCatService;
     }
 
-    @GetMapping("/do-hack")
-    public Optional<String> doHack(){
-        // хакните этих котиков
-        return hackCatService.doHackNow()
-                .map(p -> "Пароль подобран! Вот он: " + p)
-                .or(() -> Optional.of("Не удалось подобрать пароль. Проверьте состояние и настройки БД."));
-    }
+//    @GetMapping("/do-hack")
+//    public Optional<String> doHack(){
+//        // хакните этих котиков
+//        return hackCatService.doHackNow()
+//                .map(p -> "Пароль подобран! Вот он: " + p)
+//                .or(() -> Optional.of("Не удалось подобрать пароль. Проверьте состояние и настройки БД."));
+//    }
 
     @GetMapping("/home")
     public String homePage() {
