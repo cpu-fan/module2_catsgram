@@ -1,3 +1,4 @@
 # module2_catsgram
 DB schema:
-![cats-db-schema.png](src/main/resources/cats-db-schema.png)
+
+<img src="src/main/resources/cats-db-schema.png" alt="cats-db-schema.png" width="250"/>
