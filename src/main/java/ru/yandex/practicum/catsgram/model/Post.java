@@ -1,17 +1,14 @@
 package ru.yandex.practicum.catsgram.model;
 
-import org.apache.tomcat.jni.Local;
-
-import java.time.Instant;
 import java.time.LocalDate;
 
 public class Post {
 
     private Integer id;
     private final User author; // автор
+    private final LocalDate creationDate; // дата создания
     private String description; // описание
     private String photoUrl; // url-адрес фотографии
-    private final LocalDate creationDate; // дата создания
 
     public Post(User author, String description, String photoUrl) {
         this.author = author;

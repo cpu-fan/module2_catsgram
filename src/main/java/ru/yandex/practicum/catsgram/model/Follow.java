@@ -1,27 +1,27 @@
 package ru.yandex.practicum.catsgram.model;
 
 public class Follow {
-    private String authorId;
-    private String followerId;
+    private String author;
+    private String follower;
 
-    public Follow(String authorId, String followerId) {
-        this.authorId = authorId;
-        this.followerId = followerId;
+    public Follow(String author, String follower) {
+        this.author = author;
+        this.follower = follower;
     }
 
-    public String getAuthorId() {
-        return authorId;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setAuthorId(String authorId) {
-        this.authorId = authorId;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
-    public String getFollowerId() {
-        return followerId;
+    public String getFollower() {
+        return follower;
     }
 
-    public void setFollowerId(String followerId) {
-        this.followerId = followerId;
+    public void setFollower(String follower) {
+        this.follower = follower;
     }
 }

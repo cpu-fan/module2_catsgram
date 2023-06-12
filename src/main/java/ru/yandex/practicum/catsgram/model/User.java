@@ -1,18 +1,20 @@
 package ru.yandex.practicum.catsgram.model;
 
 public class User {
+
     private String id;
+
     private String username;
+
     private String nickname;
+
+    public User() {
+    }
 
     public User(String id, String username, String nickname) {
         this.id = id;
         this.username = username;
         this.nickname = nickname;
-    }
-
-    public String getId() {
-        return id;
     }
 
     public void setId(String id) {
@@ -35,16 +37,7 @@ public class User {
         this.nickname = nickname;
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        User user = (User) o;
-//        return email.equals(user.email);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(email);
-//    }
+    public String getId() {
+        return id;
+    };
 }
