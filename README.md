@@ -1,4 +1,15 @@
-# module2_catsgram
+# Catsgram
+<details>
+    <summary>Описание</summary>
+    Сквозной проект второго модуля посвященного SpringBoot.
+</details>
+
+Catsgram (Котограм) - приложение для владельцев котов и кошек, чтобы они могли делиться фотографиями своих питомцев.
+
+<img src="https://pictures.s3.yandex.net/resources/218_1663626678.png" alt="catsgram-img" width="500"/>
+
+По функциональности Котограм похож на известную и созвучную по названию социальную сеть. Приложение имеет следующую логику — взаимодействие с пользователями, публикацию постов, обмен лайками и комментариями. Для хранения этой информации будет использована база данных PostgreSQL.
+
 DB schema:
 
-<img src="src/main/resources/cats-db-schema.png" alt="cats-db-schema.png" width="250"/>
+<img src="src/main/resources/cats-db-schema.png" alt="cats-db-schema.png" width="500"/>
